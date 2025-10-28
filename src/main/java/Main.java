@@ -17,16 +17,14 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("\nWelcome to the software comprehension application, you need to provide project path and jdk path ");
-
         // Hardcoded paths
         String projectPath = "C:\\Users\\harch\\Desktop\\Tp28Oct\\Library-Management-System-JAVA-master\\Project";
         String projectSourcePath = projectPath + "/src";
         String jrePath = "C:\\Progra~1\\Java\\jdk-17";
 
         System.out.println("\nMenu : ");
-        System.out.println("1 : Response for questions using JDT.");
-        System.out.println("2 : Response for questions using Spoon.");
+        System.out.println("1 : JDT.");
+        System.out.println("2 : Spoon.");
         System.out.println("0 : Exit.");
 
         System.out.print("What do you choose : ");
