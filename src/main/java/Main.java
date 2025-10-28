@@ -27,7 +27,7 @@ public class Main {
         System.out.println("2 : Spoon.");
         System.out.println("0 : Exit.");
 
-        System.out.print("What do you choose : ");
+        System.out.print("Input : ");
         int input = sc.nextInt();
 
         while (input < 0 || input > 2) {
